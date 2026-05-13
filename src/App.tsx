@@ -14,11 +14,14 @@ function App() {
       <div className="min-h-screen bg-slate-900">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/skills" element={<Skill />}></Route>
-          <Route path="/experience" element={<Experience />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/udaya-profile/" element={<Home />}></Route>
+          <Route path="/udaya-profile/skills" element={<Skill />}></Route>
+          <Route
+            path="/udaya-profile/experience"
+            element={<Experience />}
+          ></Route>
+          <Route path="/udaya-profile/about" element={<About />}></Route>
+          <Route path="/udaya-profile/contact" element={<Contact />}></Route>
         </Routes>
         <Footer />
       </div>
