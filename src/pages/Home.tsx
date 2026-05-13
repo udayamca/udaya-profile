@@ -19,7 +19,7 @@ export default function Home() {
         </p>
         <div className="mt-4 mb-4 gap-4 flex">
           <Link
-            to="/skills"
+            to="/experience"
             className="bg-slate-800 p-3 rounded text-white hover:text-blue-500 text-sm hover:text-base border border-slate-700 hover:border-blue-500 pointer-events-auto hover:scale-105 transition-all duration-500  "
           >
             View Experience
