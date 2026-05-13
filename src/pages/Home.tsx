@@ -15,11 +15,18 @@ export default function Home() {
           Staff Frontend Engineer
         </p>
         <p className="mt-2 sm:mt-4 sm:w-2/3 ">
-          15+ years building scaling and high-traffic web applications for
-          global platforms. Leading frontend modernization at eBay for millions
-          of users worldwide. My core expertise is in React and TypeScript,
-          along with strong fundamentals in JavaScript, Node.js, REST
-          api,GraphQL, HTML, and CSS.
+          15+ years of experience designing, scaling, and modernizing high-traﬃc
+          eCommerce plaLorms. Deep experNse in React, TypeScript, JavaScript,
+          Node.js, REST API, GraphQL and component-driven architecture, with a
+          strong track record of leading UI modernizaNon iniNaNves, improving
+          Core Web Vitals, and delivering revenue-impacNng features in global
+          producNon environments. Experienced in CI/CD, performance opNmizaNon,
+          accessibility (WCAG), and scalable system design. Proven ability to
+          improve engineering producNvity by implemenNng AI-assisted development
+          workflows, including Jira automaNon with Claude (via Obsidian) to
+          generate React components from Git issues, and integraNng Lighthouse
+          performance audits into PR pipelines to automaNcally monitor and
+          opNmize web performance before deployment.
         </p>
         <div className="mt-4 mb-4 gap-4 grid sm:flex">
           <Link
