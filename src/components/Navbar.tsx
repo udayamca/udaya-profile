@@ -13,31 +13,31 @@ export default function Navbar() {
         </div>
         <div className="flex gap-2 p-4 text-sm">
           <Link
-            to="/udaya-profile/"
+            to="/"
             className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 transition-all duration-500  "
           >
             Home
           </Link>
           <Link
-            to="/udaya-profile/skills"
+            to="/skills"
             className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 transition-all duration-500 "
           >
             Skills
           </Link>
           <Link
-            to="/udaya-profile/experience"
+            to="/experience"
             className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 transition-all duration-500 "
           >
             Experience
           </Link>
           <Link
-            to="/udaya-profile/about"
+            to="/about"
             className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 transition-all duration-500 "
           >
             About
           </Link>
           <Link
-            to="/udaya-profile/contact"
+            to="/contact"
             className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 transition-all duration-500 "
           >
             Contact
