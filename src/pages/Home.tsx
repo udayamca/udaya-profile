@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="text-white text-sm ml-2 mb-16">
+    <div className="text-white text-sm ml-2 mb-10">
       <Section title="" subTitle="">
         <div className="text-xs sm:text-sm bg-slate-800 border-l-2 border-blue-400 p-2 mt-1 inline-block">
           Available for opportunities · Fremont, CA
