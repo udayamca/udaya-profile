@@ -5,7 +5,7 @@ export default function About() {
     <div className="text-white text-sm ml-2 mb-10">
       <Section title="About Me" subTitle="/ / BACKGROUND">
         <div className="grid gap-8">
-          <div className="grid  border-l-2 border-blue-400 p-4 mt-8 w-2/3">
+          <div className="grid  border-l-2 border-blue-400 p-4 mt-8 sm:w-3/4">
             <div className="text-md text-blue-400">BIO</div>
             <div className="text-sm mt-4">
               <div className="mb-4">
@@ -58,7 +58,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="grid  border-l-2 border-blue-400 p-4 mb-12">
+          <div className="grid  border-l-2 border-blue-400 p-4 ">
             <div className="text-md text-blue-400">
               COURSES & CERTIFICATIONS (GeneraEve AI)
             </div>

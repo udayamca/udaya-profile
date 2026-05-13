@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="text-white text-sm ml-2 mb-10">
       <Section title="Get in Touch" subTitle="/ / CONNECT">
-        <div className="mt-8 mb-4 gap-4 flex">
+        <div className="mt-8 mb-4 gap-4 grid sm:flex">
           <a
             href="mailto:udayamca@gmail.com"
             className="bg-slate-800 p-3 rounded text-white hover:text-blue-500 text-sm hover:text-base border border-slate-700 hover:border-blue-500 pointer-events-auto hover:scale-105 transition-all duration-500  "

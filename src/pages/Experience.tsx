@@ -4,8 +4,8 @@ export default function Experience() {
   return (
     <div className="text-white text-sm ml-2 mb-10">
       <Section title="Professional Experience" subTitle="/ / CAREER">
-        <div className="grid gap-8 x-1/2">
-          <div className="grid border-l-2 border-blue-400 p-4 mt-8 w-2/3">
+        <div className="grid gap-4 sm:gap-8">
+          <div className="grid border-l-2 border-blue-400 p-4 mt-8 sm:w-3/4">
             <div className="text-xs text-gray-400 mb-4">
               2014 – Present · San Jose, CA
             </div>
@@ -92,7 +92,7 @@ export default function Experience() {
               </li>
             </ul>
           </div>
-          <div className="grid border-l-2 border-blue-400 p-4 mt-4 w-2/3">
+          <div className="grid border-l-2 border-blue-400 p-4 mt-0 sm:w-3/4">
             <div className="text-xs text-gray-400 mb-4">
               Dec 2012 – Mar 2014 · San Jose, CA
             </div>
@@ -118,7 +118,7 @@ export default function Experience() {
               </li>
             </ul>
           </div>
-          <div className="grid border-l-2 border-blue-400 p-4 mt-4 w-2/3">
+          <div className="grid border-l-2 border-blue-400 p-4 mt-0 sm:w-3/4">
             <div className="text-xs text-gray-400 mb-4">
               Jun 2010 – Nov 2012 · Chennai
             </div>
