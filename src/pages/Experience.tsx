@@ -7,7 +7,7 @@ export default function Experience() {
         <div className="grid gap-4 sm:gap-8">
           <div className="grid border-l-2 border-blue-400 p-4 mt-8 sm:w-3/4">
             <div className="text-xs text-gray-400 mb-4">
-              2014 – Present · San Jose, CA
+              Apr 2014 – Present · San Jose, CA
             </div>
             <div className="text-xl">Member of Technical Staff (Frontend)</div>
             <div className="text-sm text-blue-500 dark:text-blue-400  mb-4">
