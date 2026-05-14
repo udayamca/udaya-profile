@@ -90,7 +90,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="grid  border-l-2 border-blue-400 p-4">
+          <div className="mb-4 grid  border-l-2 border-blue-400 p-4">
             <div className="text-md text-blue-500 dark:text-blue-400 ">
               EDUCATION
             </div>

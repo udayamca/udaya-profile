@@ -120,7 +120,7 @@ export default function Experience() {
               </li>
             </ul>
           </div>
-          <div className="grid border-l-2 border-blue-400 p-4 mt-0 sm:w-3/4">
+          <div className="mb-4 grid border-l-2 border-blue-400 p-4 mt-0 sm:w-3/4">
             <div className="text-xs text-gray-400 mb-4">
               Jun 2010 – Nov 2012 · Chennai
             </div>

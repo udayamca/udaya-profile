@@ -55,7 +55,7 @@ export default function Home() {
             </span>
             <span className="text-xs sm:text-sm">GMV Uplift</span>
           </div>
-          <div className="grid">
+          <div className="grid mb-4 ">
             <span className="text-2xl sm:text-4xl text-blue-500 dark:text-blue-400 ">
               12
             </span>
