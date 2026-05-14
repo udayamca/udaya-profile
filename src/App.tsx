@@ -8,11 +8,19 @@ import Experience from "./pages/Experience";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
+import { useState } from "react";
+
 function App() {
+  const [toggleEnabled, setToggleEnabled] = useState(true);
   return (
     <>
-      <div className="min-h-screen bg-slate-900">
-        <Navbar />
+      <div
+        className={`min-h-screen dark:bg-slate-900 ${toggleEnabled ? "dark" : ""}`}
+      >
+        <Navbar
+          toggleEnabled={toggleEnabled}
+          onToggleChange={setToggleEnabled}
+        />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/skills" element={<Skill />}></Route>
