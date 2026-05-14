@@ -30,7 +30,7 @@ export default function Contact() {
           <a
             href="https://github.com/udayamca/"
             target="_blank"
-            className="mb-4 bg-slate-800 p-3 rounded text-white hover:text-blue-500 text-sm hover:text-base border border-slate-700 hover:border-blue-500 pointer-events-auto hover:scale-105 transition-all duration-500  "
+            className="bg-slate-800 p-3 rounded text-white hover:text-blue-500 text-sm hover:text-base border border-slate-700 hover:border-blue-500 pointer-events-auto hover:scale-105 transition-all duration-500  "
           >
             <span className="pr-2 text-blue-500 dark:text-blue-400 ">git</span>
             Git Link
