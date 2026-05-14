@@ -14,11 +14,15 @@ const Navbar: React.FC<NavbarProps> = ({ toggleEnabled, onToggleChange }) => {
   return (
     <>
       <div
-        className="flex items-center justify-between bg-slate-9001 dark:bg-slate-900 text-slate-900 dark:text-white p-4 border-b-1 border-blue-300 dark:border-gray-800
+        className="flex items-center justify-between dark:bg-slate-900 text-slate-900 dark:text-white p-4 border-b-1 border-blue-300 dark:border-gray-800
       "
       >
         <div>
-          <img src={ucLogo} alt="Udaya Chandar" className="w-15 sm:w-25" />
+          <img
+            src={ucLogo}
+            alt="Udaya Chandar"
+            className="uc-logo w-15 sm:w-25 animate-[spin_12s_ease-in-out_infinite]"
+          />
         </div>
 
         <div className="flex items-center sm:hidden gap-2">
