@@ -114,7 +114,7 @@ export default function Experience() {
                 Implemented mobile-optimized features improving usability and
                 engagement.
               </li>
-              <li className="mb-4">
+              <li className="">
                 Collaborated across distributed engineering teams to deliver
                 production-grade releases.
               </li>
@@ -140,7 +140,7 @@ export default function Experience() {
                 Developed scalable UI features using HTML, CSS, and JavaScript
                 frameworks.
               </li>
-              <li className="mb-4">
+              <li className="">
                 Participated in Agile development cycles and cross-functional
                 delivery.
               </li>
