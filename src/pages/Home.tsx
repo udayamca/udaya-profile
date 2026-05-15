@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex pt-4 items-center">
           <div className="mt-2 mr-4">
             <img
-              className="rounded-full border-blue-400 border-1 w-40"
+              className="rounded-full border-blue-400 border-1 w-30 sm:w-40"
               src="/src/assets/udaya.jpg"
             />
           </div>
