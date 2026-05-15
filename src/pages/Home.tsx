@@ -1,5 +1,6 @@
 import Section from "../components/Sections";
 import { Link } from "react-router-dom";
+import udayaImage from "../assets/udaya.jpg";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
           <div className="mt-2 mr-4">
             <img
               className="rounded-full border-blue-400 border-1 w-30 sm:w-40"
-              src="/src/assets/udaya.jpg"
+              src={udayaImage}
             />
           </div>
           <div className="item-center">
