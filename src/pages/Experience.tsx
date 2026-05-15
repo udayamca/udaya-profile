@@ -13,7 +13,7 @@ export default function Experience() {
             <div className="text-sm text-blue-500 dark:text-blue-400  mb-4">
               eBay Inc.
             </div>
-            <ul className="list-disc pl-4 x-1/2">
+            <ul className="list-disc uc-bullet pl-4 x-1/2">
               <li className="mb-4">
                 Led Transaction Modernization by migrating Place Bid and Review
                 Bid flows from Marko to React + TypeScript, improving
@@ -105,7 +105,7 @@ export default function Experience() {
             <div className="text-xs text-gray-400 mb-4">
               (As a consultant at eBay Inc.)
             </div>
-            <ul className="list-disc pl-4 x-1/2">
+            <ul className="list-disc uc-bullet pl-4 x-1/2">
               <li className="mb-4">
                 Delivered frontend development for eBay UPE Mobile Web
                 initiatives, building scalable and responsive user experiences.
@@ -131,7 +131,7 @@ export default function Experience() {
             <div className="text-xs text-gray-400 mb-4">
               (As a consultant at eBay Inc.)
             </div>
-            <ul className="list-disc pl-4 x-1/2">
+            <ul className="list-disc uc-bullet pl-4 x-1/2">
               <li className="mb-4">
                 Contributed to frontend engineering initiatives supporting
                 global eCommerce plaLorms.
