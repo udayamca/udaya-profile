@@ -8,12 +8,22 @@ export default function Home() {
         <div className="text-white text-xs sm:text-sm bg-slate-200 bg-slate-800 border-l-2 border-blue-400 p-2 mt-1 inline-block">
           Available for opportunities · Fremont, CA
         </div>
-        <h1 className="text-2xl sm:text-5xl mt-3 sm:mt-6 text-blue-500 dark:text-blue-400  ">
-          Udaya Chandar
-        </h1>
-        <p className="text-lg sm:text-2xl mt-1 sm:mt-2 ">
-          Staff Frontend Engineer
-        </p>
+        <div className="flex pt-4 items-center">
+          <div className="mt-2 mr-4">
+            <img
+              className="rounded-full border-blue-400 border-1 w-40"
+              src="/src/assets/udaya.jpg"
+            />
+          </div>
+          <div className="item-center">
+            <h1 className="text-2xl sm:text-5xl text-blue-500 dark:text-blue-400  ">
+              Udaya Chandar
+            </h1>
+            <p className="text-lg sm:text-2xl mt-1 sm:mt-2 ">
+              Staff Frontend Engineer
+            </p>
+          </div>
+        </div>
         <p className="mt-2 sm:mt-4 sm:w-2/3 ">
           15+ years of experience designing, scaling, and modernizing high-traﬃc
           eCommerce plaforms. Deep expertise in React, TypeScript, JavaScript,
