@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import ucLogo from "../assets/uc-logo.png";
 
 import Toggle from "./Toggle";
@@ -8,6 +8,12 @@ type NavbarProps = {
   toggleEnabled: boolean;
   onToggleChange: (value: boolean) => void;
 };
+
+const desktopLinkClass = ({ isActive }: { isActive: boolean }) =>
+  `${isActive ? "selectedLink" : ""} mr-3 pb-1 boder-b-2 hover:border-b-2 hover:text-blue-500 hover:border-blue-500 hover:text-base  hover:leading-none transition-all duration-500`;
+
+const mobileLinkClass = ({ isActive }: { isActive: boolean }) =>
+  `${isActive ? "selectedLink" : ""} selectedLink:text-4xl mr-3 pb-1 boder-b-1 hover:border-b-1 hover:text-blue-500 hover:border-blue-500 hover:text-sm  hover:leading-none transition-all duration-500`;
 
 const Navbar: React.FC<NavbarProps> = ({ toggleEnabled, onToggleChange }) => {
   const [open, setOpen] = useState(false);
@@ -35,71 +41,41 @@ const Navbar: React.FC<NavbarProps> = ({ toggleEnabled, onToggleChange }) => {
           <Toggle enabled={toggleEnabled} onToggle={onToggleChange} />
         </div>
         <div className="hidden sm:flex gap-2 p-4 text-sm">
-          <Link
-            to="/"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 hover:leading-none transition-all duration-500  "
-          >
+          <NavLink to="/" end className={desktopLinkClass}>
             Home
-          </Link>
-          <Link
-            to="/skills"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 hover:leading-none transition-all duration-500 "
-          >
+          </NavLink>
+          <NavLink to="/skills" className={desktopLinkClass}>
             Skills
-          </Link>
-          <Link
-            to="/experience"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 hover:leading-none transition-all duration-500 "
-          >
+          </NavLink>
+          <NavLink to="/experience" className={desktopLinkClass}>
             Experience
-          </Link>
-          <Link
-            to="/about"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 hover:leading-none transition-all duration-500 "
-          >
+          </NavLink>
+          <NavLink to="/about" className={desktopLinkClass}>
             About
-          </Link>
-          <Link
-            to="/contact"
-            className="mr-1 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-base hover:text-blue-500 hover:leading-none transition-all duration-500 "
-          >
+          </NavLink>
+          <NavLink to="/contact" className={desktopLinkClass}>
             Contact
-          </Link>
+          </NavLink>
           <Toggle enabled={toggleEnabled} onToggle={onToggleChange} />
         </div>
       </div>
       {open && (
         <div className="flex flex-col  text-center text-black dark:text-white  gap-2 p-4 text-xs sm:hidden transition-all duration-500">
-          <Link
-            to="/"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-sm hover:text-blue-500 hover:leading-none transition-all duration-500  "
-          >
+          <NavLink to="/" end className={mobileLinkClass}>
             Home
-          </Link>
-          <Link
-            to="/skills"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-sm hover:text-blue-500 hover:leading-none transition-all duration-500 "
-          >
+          </NavLink>
+          <NavLink to="/skills" className={mobileLinkClass}>
             Skills
-          </Link>
-          <Link
-            to="/experience"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-sm hover:text-blue-500 hover:leading-none transition-all duration-500 "
-          >
+          </NavLink>
+          <NavLink to="/experience" className={mobileLinkClass}>
             Experience
-          </Link>
-          <Link
-            to="/about"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-sm hover:text-blue-500 hover:leading-none transition-all duration-500 "
-          >
+          </NavLink>
+          <NavLink to="/about" className={mobileLinkClass}>
             About
-          </Link>
-          <Link
-            to="/contact"
-            className="mr-3 pb-1 boder-b-2 hover:border-b-2 hover:border-blue-500 hover:text-sm hover:text-blue-500 hover:leading-none transition-all duration-500 "
-          >
+          </NavLink>
+          <NavLink to="/contact" className={mobileLinkClass}>
             Contact
-          </Link>
+          </NavLink>
         </div>
       )}
     </>
