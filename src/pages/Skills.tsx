@@ -2,7 +2,7 @@ import Section from "../components/Sections";
 export default function Skils() {
   return (
     <>
-      <div className="text-black dark:text-white ml-2 mb-10">
+      <div className="text-black dark:text-white ml-2 mb-10 leading-normal">
         <Section title="Technical Skills" subTitle="/ / EXPERTISE">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 dark:bg-slate-900 gap-4 mt-4 text-center">
             <div className="bg-slate-800 p-3 rounded text-white hover:text-blue-500 text-sm hover:text-base border border-slate-700 hover:border-blue-500 pointer-events-auto hover:scale-105 transition-all duration-500 ">

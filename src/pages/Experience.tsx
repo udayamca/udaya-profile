@@ -2,7 +2,7 @@ import Section from "../components/Sections";
 
 export default function Experience() {
   return (
-    <div className="text-back dark:text-white text-sm ml-2 mb-10">
+    <div className="text-back dark:text-white text-sm ml-2 mb-10 leading-normal">
       <Section title="Professional Experience" subTitle="/ / CAREER">
         <div className="grid gap-4 sm:gap-8">
           <div className="grid border-l-2 border-blue-400 p-4 mt-8 sm:w-3/4">

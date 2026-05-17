@@ -4,7 +4,7 @@ import udayaImage from "../assets/udaya.jpg";
 
 export default function Home() {
   return (
-    <div className="text-black dark:text-white text-sm ml-2 mb-10">
+    <div className="text-black dark:text-white text-sm ml-2 mb-10 leading-loose">
       <Section title="" subTitle="">
         <div className="text-white text-xs sm:text-sm bg-slate-200 bg-slate-800 border-l-2 border-blue-400 p-2 mt-1 inline-block">
           Available for opportunities · Fremont, CA

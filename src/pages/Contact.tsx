@@ -2,7 +2,7 @@ import Section from "../components/Sections";
 
 export default function Contact() {
   return (
-    <div className="text-white text-sm ml-2 mb-10">
+    <div className="text-white text-sm ml-2 mb-10 leading-normal">
       <Section title="Get in Touch" subTitle="/ / CONNECT">
         <div className="mt-8 mb-4 gap-4 grid sm:flex">
           <a
