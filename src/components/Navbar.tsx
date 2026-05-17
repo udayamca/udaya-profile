@@ -13,7 +13,7 @@ const desktopLinkClass = ({ isActive }: { isActive: boolean }) =>
   `${isActive ? "selectedLink" : ""} mr-3 pb-1 boder-b-2 hover:border-b-2 hover:text-blue-500 hover:border-blue-500 hover:text-base  hover:leading-none transition-all duration-500`;
 
 const mobileLinkClass = ({ isActive }: { isActive: boolean }) =>
-  `${isActive ? "selectedLink" : ""} selectedLink:text-4xl mr-3 pb-1 boder-b-1 hover:border-b-1 hover:text-blue-500 hover:border-blue-500 hover:text-sm  hover:leading-none transition-all duration-500`;
+  `${isActive ? "selectedLink" : ""} selectedLink:text-4xl mr-3 pb-1 hover:text-blue-500 hover:border-blue-500 hover:text-sm  hover:leading-none transition-all duration-500`;
 
 const Navbar: React.FC<NavbarProps> = ({ toggleEnabled, onToggleChange }) => {
   const [open, setOpen] = useState(false);

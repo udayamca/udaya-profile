@@ -38,6 +38,6 @@ li::before {
 @media (max-width: 768px) {
     .selectedLink { 
         font-size: 0.875rem;
-        border-bottom-width: 1px;
+        border-bottom-width: 0px;
     }
 }
