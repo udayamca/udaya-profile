@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <div
-        className={`min-h-screen dark:bg-slate-900 ${toggleEnabled ? "dark" : ""}`}
+        className={`min-h-screen dark:bg-slate-900 font-encode ${toggleEnabled ? "dark" : ""}`}
       >
         <Navbar
           toggleEnabled={toggleEnabled}
