@@ -25,7 +25,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <p className="mt-2 sm:mt-4 sm:w-2/3 ">
+        <p className="mt-2 sm:mt-4 sm:w-3/4 ">
           15+ years of experience designing, scaling, and modernizing high-traﬃc
           eCommerce plaforms. Deep expertise in React, TypeScript, JavaScript,
           Node.js, REST API, GraphQL and component-driven architecture, with a
